@@ -17,6 +17,28 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "qr-scanner": [
+        "dist/qr-scanner"
+      ],
+      "qr-scanner/*": [
+        "dist/qr-scanner/*"
+      ],
+      "qr-reader": [
+        "dist/qr-reader"
+      ],
+      "qr-reader/*": [
+        "dist/qr-reader/*"
+      ],
+      "qr-reader-lib": [
+        "dist/qr-reader-lib",
+        "dist/qr-reader-lib"
+      ],
+      "qr-reader-lib/*": [
+        "dist/qr-reader-lib/*",
+        "dist/qr-reader-lib/*"
+      ]
+    }
   }
 }
